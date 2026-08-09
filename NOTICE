@@ -1,0 +1,21 @@
+RedSteelCore
+Copyright (C) 2026 RedstoneTeam <admiralgdr@gmail.com>
+
+This program is free software: you can redistribute it and/or modify it under
+the terms of the GNU Affero General Public License as published by the Free
+Software Foundation, either version 3 of the License, or (at your option) any
+later version. See the LICENSE file for the full text.
+
+RedSteelCore is a NeoForge 1.21.1 modification built on the Aetherium Framework.
+The Aetherium Framework is a separate work by the same author, distributed under
+its own AGPL-3.0-or-later terms; RedSteelCore links against it and does not
+vendor its sources.
+
+Authorship & provenance: this work is authenticated by the RedstoneTeam OpenPGP
+key with fingerprint:
+
+    2D7A 0B29 9B4D 2648 36B7  ABCF 66A1 060E 1E5A 8F91
+
+Signed release tags, signed commits, and a signed SHA-256 manifest
+(SHA256SUMS.asc) accompany every published release. Any distribution of this
+software lacking a valid signature from that key is unauthorized.

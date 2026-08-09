@@ -1,0 +1,48 @@
+# ── Build output ─────────────────────────────────────────────
+build/
+out/
+bin/
+*.class
+.gradle/
+
+# ── IDE / OS ─────────────────────────────────────────────────
+.idea/
+*.iml
+.idea_modules/
+.vscode/
+.settings/
+.classpath
+.project
+.DS_Store
+
+# ── Runtime / crash logs ─────────────────────────────────────
+run/
+hs_err_pid*
+*.log
+
+
+# ── Secrets — never publish (private keys stay on the build host) ──
+*.env
+.env
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+*.key
+secring.*
+*.gpg
+# NOTE: KEYS.asc (the PUBLIC signing key) is published deliberately.
+
+# ── Large binary docs / scratch renders ──────────────────────
+*.pptx
+test_renders/
+ui_test.png
+
+# ── Python tooling artifacts ─────────────────────────────────
+__pycache__/
+*.pyc
+
+# ── Stray build/test state / vendored jars ───────────────────
+.jqwik-database
+libs/*.jar

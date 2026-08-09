@@ -1,0 +1,39 @@
+{
+  "_comment": "RedSteelCore server configuration. Edit and save — the running server reloads it atomically. An invalid file is rejected whole and the previous values stay live. You can also edit this in-game (faction screen → server settings) or with /redsteel config.",
+  "anomaly_core": {
+    "energy_per_essence": 64
+  },
+  "factions": {
+    "communists": {
+      "color": "#C0392B",
+      "display_name": "Кибер-Коммуна"
+    },
+    "neutral": {
+      "color": "#95A5A6",
+      "display_name": "Без фракции"
+    },
+    "samurai": {
+      "color": "#E74C3C",
+      "display_name": "Орден Самураев"
+    }
+  },
+  "mechanics": {
+    "combo_needed": 10,
+    "combo_reward": 10,
+    "combo_window_ticks": 300,
+    "focus_max": 100,
+    "focus_per_kill": 15,
+    "focus_reward": 10,
+    "honourable_kills_only": true
+  },
+  "restricted_items": {
+    "redsteelcore:commune_plasma_blade": "communists",
+    "redsteelcore:samurai_spirit_katana": "samurai"
+  },
+  "rules": {
+    "friendly_fire_protection": true,
+    "item_restrictions": true,
+    "territory_protection": true
+  },
+  "version": 2
+}

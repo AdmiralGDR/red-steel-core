@@ -1,0 +1,4 @@
+# Python tooling for local asset generation (model/texture/icon helpers under scripts/).
+# Pure-Python, no network services required.
+Pillow>=10.0
+numpy>=1.24
