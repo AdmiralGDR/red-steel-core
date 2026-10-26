@@ -17,5 +17,8 @@ key with fingerprint:
     2D7A 0B29 9B4D 2648 36B7  ABCF 66A1 060E 1E5A 8F91
 
 Signed release tags, signed commits, and a signed SHA-256 manifest
-(SHA256SUMS.asc) accompany every published release. Any distribution of this
-software lacking a valid signature from that key is unauthorized.
+(SHA256SUMS.asc) accompany every published release. A copy without a valid
+signature from that key is not an official release. This does not limit
+anyone's rights under the AGPL: modified and unsigned copies may be conveyed
+under its terms, provided they keep the license and copyright notices and are
+marked as changed (section 5).
